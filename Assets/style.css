@@ -17,7 +17,7 @@
 .navbar{
     padding: 0px 50px;
 }
-
+/*
 {
     margin: 0;
     padding: 0;
@@ -73,4 +73,14 @@
 opacity: 1;
 }
 
+.item {
+width: 500px;
+height: 1500´x;
+flex-shrink: 0;
+opacity: 0.6;
+transition: all 600ms ease-in-out;
+
+}
+
+*/
 
