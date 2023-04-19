@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .backgroundColorNav {
     background-color:#b6962ef8;
     color: white;
@@ -17,3 +18,81 @@
 .navbar{
     padding: 0px 50px;
 }
+=======
+.backgroundColorNav {
+    background-color:#b6962ef8;
+    color: white;
+
+}
+
+ .textNave {
+    color: white !important;
+    font-size: 25px;
+
+}
+
+.nav-item{
+    padding: 0px 20px;
+}
+
+.navbar{
+    padding: 0px 50px;
+}
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    padding: 15px;
+    max-width: 2500px;
+    margin: 0 auto;
+}
+
+.gallery-wrapper{
+    overflow-x: auto;
+}
+
+.gallery{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+ 
+}
+
+.arrow-left,
+.arrow-right{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 30px;
+    line-height:250px ;
+    width:40px ;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.2;
+    transition: all 600ms ease-in-out;
+}
+.arrow-right{
+    left: auto;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+    opacity: o.2;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+opacity: 1;
+}
+
+
+>>>>>>> c6958e47371ee0c8dbb46ee46e35fad978b8c715
