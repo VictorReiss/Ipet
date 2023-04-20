@@ -1,33 +1,13 @@
 
 .backgroundColorNav {
-    background-color:#b6962ef8;
-    color: white;
+    background-color:#41c5a9f8;
+    color: rgb(0, 0, 0);
 
 }
 
  .textNave {
-    color: white !important;
-    font-size: 25px;
-
-}
-
-.nav-item{
-    padding: 0px 20px;
-}
-
-.navbar{
-    padding: 0px 50px;
-}
-
-.backgroundColorNav {
-    background-color:#b6962ef8;
-    color: white;
-
-}
-
- .textNave {
-    color: white !important;
-    font-size: 25px;
+    color: rgb(0, 0, 0) !important;
+    font-size: 1.5em;
 
 }
 
