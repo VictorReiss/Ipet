@@ -19,10 +19,10 @@ background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
 }
 
 .logo {
-    width: 150px;
+    width: 9.375rem;
     display: flex;
     align-items: center;
-    margin-left: 5rem;
+    margin-left: 2rem;
 }
 
 .nav-list {
