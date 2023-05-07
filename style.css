@@ -142,9 +142,6 @@ header {
 /* aqui acaba o CSS do header */
 
 
-
-
-
 /* Aqui começa o CSS da Galeria de imagens */ 
 .row{
     margin: .5rem   ;
@@ -232,4 +229,5 @@ h3 span{
     bottom: 30px;
     margin-top: 5000px;
     z-index: 1;
+    padding: .5rem;
 }
