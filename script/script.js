@@ -1,5 +1,3 @@
-// aqui fica a config da nav-bar//
-
 function menuShow() {
     let menuMobile = document.querySelector('.mobile-menu');
     if (menuMobile.classList.contains('open')) {
@@ -11,4 +9,3 @@ function menuShow() {
     }
 }
 
-// aqui termina a config da nav-bar//
