@@ -231,3 +231,8 @@ h3 span{
     z-index: 1;
     padding: .5rem;
 }
+
+.rodape{
+    background-color: whitesmoke;
+    color: black;
+}
