@@ -219,6 +219,41 @@ h3 span{
     }
 }
 
+.corpo1 {
+    margin: 2rem;
+    background-color: transparent;
+    max-width: 100%;
+}
+
+.sobre1 {
+    position: relative;
+    display: flex;
+  }
+
+.sobre1 p {
+    font-size: large;
+}
+
+  h1 {
+    text-align: center;
+}
+.texto2 p{
+    font-size: x-large;
+
+}
+
+@media screen and (max-width:768px) {
+    .sobre1 {
+        display: block;
+        max-width: 100%;
+
+    }
+    .sobre1 img {
+        display: block;
+        max-width: 100%;
+        margin-left: -2.5rem;
+    }
+}
 
 
 
@@ -367,4 +402,38 @@ footer {
         gap: 2rem;
         padding: 3rem 2rem;
     }
+}
+
+
+.video {
+
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .video {
+        display: grid;
+        max-width: 100%;
+        justify-content: space-between;
+    }
+.vd1 {
+    width: 310px;
+    height: 250px;
+    padding: 5px;
+}
+
+.vd2 {
+    width: 310px;
+    height: 250px;
+    padding: 5px;
+}
+
+.vd3 {
+    width: 310px;
+    height: 250px;
+    padding: 5px;
+}
 }
