@@ -406,34 +406,28 @@ footer {
 
 
 .video {
-
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
     margin-bottom: 2rem;
 }
 
-@media screen and (max-width: 768px) {
-    .video {
-        display: grid;
-        max-width: 100%;
-        justify-content: space-between;
-    }
-.vd1 {
-    width: 310px;
-    height: 250px;
-    padding: 5px;
+.movie {
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.vd2 {
-    width: 310px;
-    height: 250px;
-    padding: 5px;
+.video1 {
+    background: black;
+    box-shadow: 0 0 30px black;
+}
+.video2 {
+    background: black;
+    box-shadow: 0 0 30px black;
+}
+.video3 {
+    background: black;
+    box-shadow: 0 0 30px black;
 }
 
-.vd3 {
-    width: 310px;
-    height: 250px;
-    padding: 5px;
-}
-}
