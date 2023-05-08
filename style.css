@@ -228,9 +228,9 @@ h3 span{
     position: fixed;
     width: 30px;
     bottom: 30px;
-    margin-top: 5000px;
     z-index: 1;
     padding: .5rem;
+    display: grid;
 }
 
 
@@ -264,6 +264,10 @@ footer {
     text-align: center;
 }
 
+#footer_contacts p {
+    color: gray;
+}
+
 #footer_social_media {
     text-align: center;
     gap: 2rem;
@@ -291,6 +295,10 @@ footer {
     list-style: none;
 }
 
+.footer-list h3 {
+    text-align: center;
+}
+
 .footer-list .footer-link {
     color: gray;
     transition: all 0.4s;
@@ -304,6 +312,10 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+}
+
+#footer_subscribe h3 {
+    text-align: center;
 }
 
 #footer_subscribe p {
