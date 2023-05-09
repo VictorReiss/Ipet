@@ -431,3 +431,47 @@ footer {
     box-shadow: 0 0 30px black;
 }
 
+@media screen and (max-width:1024px) {
+    .movie {
+     display: grid;
+     justify-content: space-around;
+    }
+    .video1 {
+        margin-bottom: 20px;
+    }
+    .video2 {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .video1 video {
+        width: 310px;
+        height: 200px;
+    }
+
+    .video1 {
+        width: 310px;
+        height: 200px;
+    }
+
+    .video2 video {
+        width: 310px;
+        height: 200px;
+    }
+
+    .video2 {
+        width: 310px;
+        height: 200px;
+    }
+
+    .video3 video {
+        width: 310px;
+        height: 200px;
+    }
+
+    .video3 {
+        width: 310px;
+        height: 200px;
+    }
+}
