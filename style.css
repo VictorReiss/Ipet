@@ -481,14 +481,14 @@ footer {
         width: 310px;
         height: 200px;
     }
-<<<<<<< HEAD
+
 }
 
 
 .ongs {
     background-color: transparent;
     width: 100%;
-    height: 15rem;
+   height: auto;
     display: flex;
     justify-content: space-between;
     justify-content: center;
@@ -502,6 +502,11 @@ footer {
 
 .title {
     margin-top: 7rem;
-=======
->>>>>>> 78a0578ca51c173878368a435b48b3a94d660917
+
+}
+
+@media screen and (max-width:1024px) {
+    .ongs {
+        display: grid;
+    }
 }
