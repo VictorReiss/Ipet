@@ -316,11 +316,11 @@ footer {
     margin-top: 1.5rem;
 }
 
-#instagram_rodape {
+#whatsapp_rodape {
     margin-right: 4rem;
 }
 
-#facebook_rodape {
+#instagram_rodape {
     margin-right: 4rem;
 }
 
@@ -410,6 +410,8 @@ footer {
         padding: 3rem 2rem;
     }
 }
+
+/* AQUI TERMINA O CSS DO RODAPÉ */
 
 
 .video {
